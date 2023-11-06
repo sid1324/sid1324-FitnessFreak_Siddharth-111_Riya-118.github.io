@@ -1,0 +1,74 @@
+/* Add this CSS to your "loginStyle.css" file or include it in a <style> tag in your HTML head section */
+
+/* Body styling with background image */
+body {
+    background-image: url("C:/xampp/htdocs/login/risen-wang-20jX9b35r_M-unsplash.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styling with a simple white background */
+.form-box {
+    width: 400px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    color: #333; /* Dark text color */
+    text-align: center;
+}
+
+/* Error message styling */
+.error {
+    color: #ff0000; /* Red error message text color */
+}
+
+/* Heading styling */
+h2 {
+    font-size: 24px;
+    color: #333; /* Dark heading text color */
+}
+
+.label-input-container {
+    display: flex;
+    align-items: center;
+
+    margin: 5px 0;
+}
+
+
+/* Label styling */
+label {
+    color: #060b0e; /* Blue label text color */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 10px 5px; /* Add 15px margin at the bottom for a gap after the input fields */
+    border: 1px solid #3498db; /* Blue border color */
+    border-radius: 5px;
+}
+
+/* Submit button styling (standout button) */
+input[type="submit"] {
+    background-color: #3498db; /* Blue button background color */
+    color: #fff; /* White button text color */
+    padding: 12px 24px; /* Increased padding for a larger button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #2776aa; /* Darker blue on hover for emphasis */
+}
